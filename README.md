@@ -1,4 +1,6 @@
 # PROJECT NOTES
+watch deployed page: https://edwartexe.github.io/social-feed-test-p/
+
 there are 2 pages, the main landing page and the quiz page. the quiz page is empty and its only purpose is to showcase router
 
 the state is handled by redux and it saves 3 things: the feed, the index and the timer.
