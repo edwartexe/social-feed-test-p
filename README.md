@@ -1,3 +1,15 @@
+# PROJECT NOTES
+there are 2 pages, the main landing page and the quiz page. the quiz page is empty and its only purpose is to showcase router
+
+the state is handled by redux and it saves 3 things: the feed, the index and the timer.
+
+the main page allows 3 entry query aprams: url, limit and interval.
+- url is where the feed is loaded from. it has a default url in case nothing is added, and then it has a  local json file in case the fetch fails.
+- limit should be a number that defines the ammount of posts to show (default is 3)
+- interval is the time for refresh in miliseconds, default is 10000 (10 seconds)
+
+
+_____________________________________________________________________________
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
